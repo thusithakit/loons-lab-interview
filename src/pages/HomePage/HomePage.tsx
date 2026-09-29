@@ -3,7 +3,7 @@
 // =============================================================================
 
 import { useEffect } from 'react';
-import { Container, Box, Button, useTheme } from '@mui/material';
+import { Container, Box, Button } from '@mui/material';
 import { FilterList, Whatshot, Movie as MovieIcon } from '@mui/icons-material';
 import { useAppDispatch, useAppSelector } from '../../hooks/useRedux';
 import type { RootState } from '../../store/reducers';
@@ -17,7 +17,6 @@ interface HomePageProps {
 
 export default function HomePage({ onOpenFilterSidebar }: HomePageProps) {
   const dispatch = useAppDispatch();
-  const theme = useTheme();
   const {
     trending,
     trendingPage,
