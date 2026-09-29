@@ -46,7 +46,7 @@ function AppInner() {
             element={
               <ProtectedRoute>
                 <MainLayout>
-                  <HomePage onOpenFilterSidebar={() => setSidebarOpen(true)} />
+                  <HomePage />
                 </MainLayout>
               </ProtectedRoute>
             }

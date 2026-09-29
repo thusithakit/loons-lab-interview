@@ -6,11 +6,7 @@ import { discoverMoviesRequest, fetchGenresRequest, fetchTrendingRequest } from 
 import HeroSection from '../../components/HeroSection';
 import MovieGrid from '../../components/MovieGrid';
 
-interface HomePageProps {
-  onOpenFilterSidebar?: () => void;
-}
-
-export default function HomePage({ onOpenFilterSidebar }: HomePageProps) {
+export default function HomePage() {
   const dispatch = useAppDispatch();
   const {
     trending,
