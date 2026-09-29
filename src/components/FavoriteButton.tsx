@@ -1,7 +1,3 @@
-// =============================================================================
-// FavoriteButton Component
-// =============================================================================
-
 import { IconButton } from '@mui/material';
 import { Favorite, FavoriteBorder } from '@mui/icons-material';
 import { useAppDispatch, useAppSelector } from '../hooks/useRedux';

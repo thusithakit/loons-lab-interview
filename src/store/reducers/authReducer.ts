@@ -1,7 +1,3 @@
-// =============================================================================
-// Auth Reducer
-// =============================================================================
-
 import type { User } from '../../types';
 import { LOGIN_SUCCESS, LOGOUT, type AuthActionTypes } from '../actions/authActions';
 

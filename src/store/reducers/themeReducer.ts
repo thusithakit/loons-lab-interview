@@ -1,7 +1,3 @@
-// =============================================================================
-// Theme Reducer
-// =============================================================================
-
 import { TOGGLE_THEME, type ThemeActionTypes } from '../actions/themeActions';
 
 export type ThemeMode = 'light' | 'dark';

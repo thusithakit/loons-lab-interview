@@ -1,7 +1,3 @@
-// =============================================================================
-// App Root - Router setup with Redux Provider & ThemeProvider
-// =============================================================================
-
 import { useMemo, useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router';
 import { ThemeProvider, CssBaseline } from '@mui/material';

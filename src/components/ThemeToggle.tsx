@@ -1,7 +1,3 @@
-// =============================================================================
-// ThemeToggle Component
-// =============================================================================
-
 import { IconButton, Tooltip, useTheme } from '@mui/material';
 import { LightMode, DarkMode } from '@mui/icons-material';
 import { useAppDispatch, useAppSelector } from '../hooks/useRedux';

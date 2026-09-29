@@ -1,8 +1,3 @@
-// =============================================================================
-// Movie Explorer App - TypeScript Type Definitions
-// Covers TMDb API response shapes and internal app types
-// =============================================================================
-
 /** A single genre object returned by TMDb */
 export interface Genre {
   id: number;

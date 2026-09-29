@@ -1,7 +1,3 @@
-// =============================================================================
-// MainLayout Component
-// =============================================================================
-
 import { useState } from 'react';
 import { Box } from '@mui/material';
 import Navbar from './Navbar';

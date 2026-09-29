@@ -1,7 +1,3 @@
-// =============================================================================
-// SearchPage Component
-// =============================================================================
-
 import { useEffect, useCallback } from 'react';
 import { useSearchParams } from 'react-router';
 import { Container, Box, Typography, Chip, useTheme } from '@mui/material';

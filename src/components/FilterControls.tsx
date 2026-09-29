@@ -1,8 +1,3 @@
-// =============================================================================
-// FilterControls Component
-// Manages local draft filter state - filters ONLY apply when clicking "Apply Filters"
-// =============================================================================
-
 import { useState, useEffect } from 'react';
 import {
   Box,

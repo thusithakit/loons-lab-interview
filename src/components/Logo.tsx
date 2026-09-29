@@ -1,7 +1,3 @@
-// =============================================================================
-// Logo Component
-// =============================================================================
-
 import { Box, Typography, useTheme } from '@mui/material';
 import { Movie as MovieIcon } from '@mui/icons-material';
 import { useNavigate } from 'react-router';

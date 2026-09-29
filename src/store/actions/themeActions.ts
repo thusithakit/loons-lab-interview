@@ -1,7 +1,3 @@
-// =============================================================================
-// Theme Action Types & Creators
-// =============================================================================
-
 export const TOGGLE_THEME = 'theme/TOGGLE_THEME';
 
 export interface ToggleThemeAction {

@@ -1,7 +1,3 @@
-// =============================================================================
-// MovieGrid Component
-// =============================================================================
-
 import { Box, Typography, Button, CircularProgress, useTheme } from '@mui/material';
 import { ExpandMore, Movie as MovieIcon } from '@mui/icons-material';
 import MovieCard, { MovieCardSkeleton } from './MovieCard';

@@ -1,7 +1,3 @@
-// =============================================================================
-// MovieCard Component
-// =============================================================================
-
 import { Card, CardMedia, CardContent, Typography, Box, Skeleton, useTheme } from '@mui/material';
 import { useNavigate } from 'react-router';
 import RatingBadge from './RatingBadge';

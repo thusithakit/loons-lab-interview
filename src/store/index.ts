@@ -1,7 +1,3 @@
-// =============================================================================
-// Redux Store Configuration with Redux Saga Middleware
-// =============================================================================
-
 import { configureStore } from '@reduxjs/toolkit';
 import createSagaMiddleware from 'redux-saga';
 import { rootReducer } from './reducers';

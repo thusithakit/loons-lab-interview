@@ -1,7 +1,3 @@
-// =============================================================================
-// ErrorAlert Component
-// =============================================================================
-
 import { Alert, AlertTitle, Button, Snackbar } from '@mui/material';
 import { Refresh } from '@mui/icons-material';
 import { useAppDispatch, useAppSelector } from '../hooks/useRedux';

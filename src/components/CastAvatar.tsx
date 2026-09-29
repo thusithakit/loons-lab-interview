@@ -1,7 +1,3 @@
-// =============================================================================
-// CastAvatar Component
-// =============================================================================
-
 import { Box, Typography, Avatar, useTheme } from '@mui/material';
 import { getProfileUrl } from '../services/tmdb';
 import type { CastMember } from '../types';

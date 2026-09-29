@@ -1,7 +1,3 @@
-// =============================================================================
-// FavoritesPage Component
-// =============================================================================
-
 import { Container, Box, Typography, Button, useTheme } from '@mui/material';
 import { FavoriteOutlined, Home } from '@mui/icons-material';
 import { useNavigate } from 'react-router';

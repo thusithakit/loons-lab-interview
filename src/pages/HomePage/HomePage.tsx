@@ -1,10 +1,5 @@
-// =============================================================================
-// HomePage Component - Clean typography without emojis, using MUI icons
-// =============================================================================
-
 import { useEffect } from 'react';
-import { Container, Box, Button } from '@mui/material';
-import { FilterList, Whatshot, Movie as MovieIcon } from '@mui/icons-material';
+import { Container, Box } from '@mui/material';
 import { useAppDispatch, useAppSelector } from '../../hooks/useRedux';
 import type { RootState } from '../../store/reducers';
 import { discoverMoviesRequest, fetchGenresRequest, fetchTrendingRequest } from '../../store/actions/movieActions';
@@ -67,10 +62,6 @@ export default function HomePage({ onOpenFilterSidebar }: HomePageProps) {
       />
 
       <Container maxWidth="xl" sx={{ px: { xs: 2, md: 4 } }}>
-        {/* Trending Section */}
-        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 1 }}>
-          <Whatshot sx={{ color: 'primary.main', fontSize: 28 }} />
-        </Box>
         <MovieGrid
           title="Trending Now"
           movies={trending}
@@ -78,32 +69,6 @@ export default function HomePage({ onOpenFilterSidebar }: HomePageProps) {
           hasMore={trendingPage < trendingTotalPages}
           onLoadMore={handleLoadMoreTrending}
         />
-
-        {/* Filter Sidebar Trigger */}
-        <Box sx={{ mt: 5, mb: 3, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          {onOpenFilterSidebar && (
-            <Button
-              variant="contained"
-              startIcon={<FilterList />}
-              onClick={onOpenFilterSidebar}
-              sx={{
-                background: 'linear-gradient(135deg, #E50914 0%, #FF3D47 100%)',
-                color: '#FFF',
-                fontWeight: 700,
-                px: 3,
-                py: 1,
-                borderRadius: 1,
-              }}
-            >
-              Filter Movies Sidebar
-            </Button>
-          )}
-        </Box>
-
-        {/* Discovery & Filtered Results Section */}
-        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 1 }}>
-          <MovieIcon sx={{ color: 'primary.main', fontSize: 26 }} />
-        </Box>
         <MovieGrid
           title={isFiltered ? 'Filtered Results' : 'Popular Movies'}
           movies={filteredMovies}

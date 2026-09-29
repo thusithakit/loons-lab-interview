@@ -1,7 +1,3 @@
-// =============================================================================
-// FilterSidebar Component
-// =============================================================================
-
 import { Drawer, Box, Typography, IconButton, useTheme, Divider } from '@mui/material';
 import { Close, Tune } from '@mui/icons-material';
 import FilterControls from './FilterControls';

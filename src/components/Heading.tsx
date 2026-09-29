@@ -1,7 +1,3 @@
-// =============================================================================
-// Heading Component
-// =============================================================================
-
 import { Typography, useTheme, type TypographyProps } from '@mui/material';
 
 interface HeadingProps extends TypographyProps {

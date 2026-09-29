@@ -1,7 +1,3 @@
-// =============================================================================
-// Movie Action Types & Creators (Redux Saga Pattern)
-// =============================================================================
-
 import type { Movie, MovieDetails, CastMember, Video, Genre, MovieFilters } from '../../types';
 
 // Action Constants

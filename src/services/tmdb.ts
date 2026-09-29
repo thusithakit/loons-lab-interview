@@ -1,8 +1,3 @@
-// =============================================================================
-// TMDb API Service
-// Centralizes all API calls with axios, handling auth and error formatting
-// =============================================================================
-
 import axios from 'axios';
 import type {
   PaginatedResponse,

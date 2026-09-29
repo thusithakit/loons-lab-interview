@@ -1,7 +1,3 @@
-// =============================================================================
-// MovieDetailPage Component
-// =============================================================================
-
 import { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router';
 import {

@@ -1,7 +1,3 @@
-// =============================================================================
-// HeroSection Component
-// =============================================================================
-
 import { Box, Typography, Button, Skeleton, useTheme } from '@mui/material';
 import { PlayArrow, Info } from '@mui/icons-material';
 import { useNavigate } from 'react-router';

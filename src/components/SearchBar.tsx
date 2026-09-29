@@ -1,7 +1,3 @@
-// =============================================================================
-// SearchBar Component
-// =============================================================================
-
 import { useState, type FormEvent } from 'react';
 import { useNavigate } from 'react-router';
 import { Box, InputBase, IconButton, useTheme } from '@mui/material';
