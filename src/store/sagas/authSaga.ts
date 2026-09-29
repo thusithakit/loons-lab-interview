@@ -1,5 +1,5 @@
 // =============================================================================
-// Auth Saga — handles login request side-effects
+// Auth Saga - handles login request side-effects
 // =============================================================================
 
 import { put, takeLatest } from 'redux-saga/effects';

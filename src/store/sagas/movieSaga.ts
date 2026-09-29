@@ -1,5 +1,5 @@
 // =============================================================================
-// Movie Saga — Async side-effect handlers with Redux Saga generator functions
+// Movie Saga - Async side-effect handlers with Redux Saga generator functions
 // =============================================================================
 
 import { call, put, takeLatest, takeEvery } from 'redux-saga/effects';

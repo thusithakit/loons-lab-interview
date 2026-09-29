@@ -1,10 +1,10 @@
 // =============================================================================
-// MUI Theme Configuration — Reduced Border Radius (4px) & Dynamic Theme Colors
+// MUI Theme Configuration - Reduced Border Radius (4px) & Dynamic Theme Colors
 // =============================================================================
 
 import { createTheme } from '@mui/material/styles';
 
-/** Dark Theme — Deep Charcoal with red & gold accents */
+/** Dark Theme - Deep Charcoal with red & gold accents */
 export const darkTheme = createTheme({
   palette: {
     mode: 'dark',
@@ -86,7 +86,7 @@ export const darkTheme = createTheme({
   },
 });
 
-/** Light Theme — Clean white & soft slate with reduced border radius */
+/** Light Theme - Clean white & soft slate with reduced border radius */
 export const lightTheme = createTheme({
   palette: {
     mode: 'light',

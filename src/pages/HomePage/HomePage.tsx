@@ -1,5 +1,5 @@
 // =============================================================================
-// HomePage Component — Clean typography without emojis, using MUI icons
+// HomePage Component - Clean typography without emojis, using MUI icons
 // =============================================================================
 
 import { useEffect } from 'react';

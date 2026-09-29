@@ -1,5 +1,5 @@
 // =============================================================================
-// App Root — Router setup with Redux Provider & ThemeProvider
+// App Root - Router setup with Redux Provider & ThemeProvider
 // =============================================================================
 
 import { useMemo, useState } from 'react';

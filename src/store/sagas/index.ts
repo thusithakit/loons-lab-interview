@@ -1,5 +1,5 @@
 // =============================================================================
-// Root Saga — Combines all watcher sagas
+// Root Saga - Combines all watcher sagas
 // =============================================================================
 
 import { all, fork } from 'redux-saga/effects';

@@ -1,6 +1,6 @@
 // =============================================================================
 // FilterControls Component
-// Manages local draft filter state — filters ONLY apply when clicking "Apply Filters"
+// Manages local draft filter state - filters ONLY apply when clicking "Apply Filters"
 // =============================================================================
 
 import { useState, useEffect } from 'react';
@@ -29,7 +29,7 @@ export default function FilterControls({ onApply }: FilterControlsProps) {
   const theme = useTheme();
   const { filters, genres } = useAppSelector((s) => s.movies);
 
-  // Local state buffer for draft filters — changes do NOT trigger API calls until Apply is clicked
+  // Local state buffer for draft filters - changes do NOT trigger API calls until Apply is clicked
   const [draftFilters, setDraftFilters] = useState<MovieFilters>(filters);
 
   // Sync draft state with Redux filters when Redux state changes externally (e.g. reset)
