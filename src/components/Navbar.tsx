@@ -50,7 +50,7 @@ export default function Navbar({ onOpenFilterSidebar }: NavbarProps) {
         transition: 'background-color 0.25s ease, color 0.25s ease',
       }}
     >
-      <Toolbar sx={{ gap: 1, px: { xs: 1.5, sm: 3 } }}>
+      <Toolbar sx={{ gap: 1, px: { xs: 1.5, sm: 3 }, flexWrap: 'wrap', justifyContent: {sm: 'flex-end'} }}>
         <Logo />
 
         <Box sx={{ display: 'flex', gap: 1, alignItems: 'center' }}>
